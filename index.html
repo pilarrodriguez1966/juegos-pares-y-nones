@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link type="text/css" href="Style.css" rel="stylesheet">
+        
+        
+	</head>
+
+	<body>
+        <div class="container">
+<!--pantalla de bienvenida        bienvenida-->
+        
+        <div id="bienvenida">
+            <h1>Animate a jugar</h1>
+        <h2>¿Quieres jugar?</h2>
+            <div id=muneco>
+                <img src='img/nina.gif'>
+            </div>
+          
+            
+          <button  id="si" type="button" class="btn btn-warning" "btn-lg btn-block">Si</button> 
+     
+           <button id="no" type="button" class="btn btn-primary" "btn-lg btn-block">No</button> 
+            
+            </div>
+<!--            aqui acaba la apntalla uno-->
+            
+<!--            aqui empieza la pantalla dos-->
+            
+            <div class="negada" id="noQuiero">
+           <p>Pues tu te lo pierdes</p> 
+            </div>
+<!--            aqui acaba la pantalla 2-->
+            
+<!--            empieza la pantalla 3-->
+            <div class="numerar" id="elige">
+            <h2>Tienes que elegir entre pares o nones</h2>
+          <fieldset class="form-group">
+          <label class="radio-inline">
+          <input type="radio" name="asunto" id="pares" value="pares">Pares    
+              
+              </label>  
+            
+             <label class="radio-inline">
+          <input type="radio" name="asunto" id="nones" value="nones">Nones   
+              
+              </label>  
+            
+            </fieldset>
+                <button id="siguiente">Siguiente</button>
+            
+        </div>
+
+<!--        aqui acaba la pantalla 3-->
+            
+<!--        empieza la pantalla 4-->
+        <div class="positivo" id="jugador">
+            <h1> Elige un número</h1>
+            <p>que sea entre el 0 y el 10</p>
+            <input type="number" id="escogerNumero" class="number" max="10"min="0"  >
+    <button id="continua" class="btn btn-gourmet" "btn-lg btn-block">
+                   Continua</button>
+        </div>
+<!--        aqui acaba la pantalla 4-->
+            
+<!--        aqui empieza la pantalla 5-->
+<!--        declaramos jugadores y maquina-->
+        <div class="elegir" id ="máquina">
+            <h1>Elige máquina</h1>
+               <button id="juega" class="btn btn-gourmet" "btn-lg btn-block">
+                   Juega</button></div>
+<!--            aqui acaba la pantalla 5-->
+<!--            aqui empieza la pantalla 6-->
+            <div id="resultados" >
+                <div id="numJ"></div>
+             <div id="numM"></div>
+                <div id="ganador">
+            
+            <h2>Enhorabuena has ganado</h2>
+                
+            </div>
+                <div id="perdedor">Lo siento has perdido</div>
+                 </div>
+            
+<!--            aqui acaba la pantalla 6-->
+            
+            
+        </div>
+        
+<!--            <script type="text/javascript" src="consola.js"></script>-->
+            <script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

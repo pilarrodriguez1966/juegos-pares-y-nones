@@ -1,0 +1,18 @@
+body{
+background-image:url(img/2AD.jpg);
+    color:aqua;
+    text-align: center;
+    
+    
+}
+#noQuiero,#elige,#jugador,#maquina,#ganador,#resultados,#perdedor{
+    display: none;
+}
+
+#numJ,#numM{
+    font-size: 25px;
+    color: crimson;
+}
+#perdedor{
+    font-size: 35px;
+}
